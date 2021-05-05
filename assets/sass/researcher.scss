@@ -83,7 +83,8 @@ $y-medium: 1.0rem;
     .avatar > img {
         float: right;
         margin: -8px 0 0 36px;
-        height: $avatar-size;
+        width: 100%;
+        max-width: $avatar-size;
     }
     ol {
         counter-reset: list;
